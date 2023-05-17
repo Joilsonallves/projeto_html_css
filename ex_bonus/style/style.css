@@ -3,7 +3,7 @@
     height:20rem;
     gap: 1rem;
 }
-.kodfun-galeri > div {
+.kodfun-galeri > img {
     flex: 1;
     border-radius: 1rem;
     background-position: center;
@@ -11,6 +11,6 @@
     background-size: auto 100%;
     transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
 }
-.kodfun-galeri > div:hover {
+.kodfun-galeri > img:hover {
     flex: 5;
 }
