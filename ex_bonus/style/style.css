@@ -2,6 +2,10 @@ body {
     padding: 0;
     margin: 0 auto;
 }
+main {
+    width: 100%;
+    margin: 0 auto;
+}
 .kodfun-galeri {
     display: flex;
     height:20rem;
