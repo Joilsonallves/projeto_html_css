@@ -1,3 +1,7 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
 .kodfun-galeri {
     display: flex;
     height:20rem;
@@ -13,4 +17,7 @@
 }
 .kodfun-galeri > img:hover {
     flex: 5;
+}
+main {
+    width: 800px;
 }
