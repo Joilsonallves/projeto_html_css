@@ -26,6 +26,15 @@ body {
         flex-direction: column;
         align-items: center;
      }
+
+     .link {
+        width: 95%;
+        margin-bottom: 10px;
+     }
+     .kodfun-galeri > img {
+        width: 95%;
+        margin-bottom: 10px;
+     }
 }
 main {
     width: 100%;
