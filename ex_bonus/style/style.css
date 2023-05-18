@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 *,
 *::after,
-*::before {
+*:before {
     margin: 0;
     box-sizing: border-box;
 }
@@ -48,7 +48,7 @@ main {
     text-decoration: none;
     color: inherit;
 }
-.link::before {
+.link:before {
     position: absolute;
     z-index: -1;
     content: "";
@@ -66,7 +66,7 @@ main {
     outline: 0;
     width: 140px;
 }
-.link:hover::before, 
+.link:hover:before, 
 .link:hover .link-title {
     transform: translateX(0%);
 }
