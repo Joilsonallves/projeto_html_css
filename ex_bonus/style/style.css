@@ -20,7 +20,7 @@ body {
 @media (max-width:768px) {
     .menu {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }   
      .kodfun-galeri {
         flex-direction: column;
